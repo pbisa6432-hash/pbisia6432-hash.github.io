@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Web Resmi Anda | PANJAT4D</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #808080;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: transparent;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: #FFF5EE; /* Warna Utama: Biru */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #FFF5EE;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #FFF5EE;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            
+        }
+        
+        /* Gaya Tombol CTA */
+        .btn {
+            display: inline-block;
+            background: #28a745; /* Warna CTA: Hijau */
+            color: white;
+            padding: 15px 30px; /* Diperbesar agar lebih menonjol */
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+            position: relative; /* Penting untuk efek pulse */
+            z-index: 1;
+            /* Pastikan tombol terlihat 3D dan lebih menonjol */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+        }
+        .btn:hover {
+            background: #218838;
+        }
+
+        /* ----- CSS UNTUK EFEK PULSE (BERDENYUT) ----- */
+        
+        /* Mendefinisikan animasi 'pulse' */
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 15px rgba(40, 167, 69, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+            }
+        }
+
+        /* Menerapkan animasi pada tombol */
+        .btn-pulse {
+            animation: pulse 2s infinite; /* Animasi berulang setiap 2 detik */
+        }
+
+        /* ------------------------------------------- */
+
+        .footer-text {
+            margin-top: 30px; 
+            font-size: 0.9em; 
+            color: #FFF5EE;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>PANJAT4D LOGIN, TERRPERCAYA & NOMOR 1</h1>
+        <h2>Desain Ergonomis dan Keren!</h2>
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRWBwLPqq9Jr3KFNEnQNCDL__EKZJkt4Xjs2OJ1aXg6DOQAsb6dadBV4LKcTtIMJw05x-zT48AXyc9Io8DMytjQMb8BNrzXQsjlFVZXt30q0jlbQ-aW1kL1fRbb8bcLwBZV172l3uDQ9Mmp1PPKIvT2tY3PO5B28pnyGGzU3j6kgUsfOBKcSJSmPco9WM/w320-h320/Untitled%20design.jpg" alt="Ilustrasi Situs Segera Hadir" class="hero-image">
+
+        <p>Kami sedang bekerja keras untuk meluncurkan situs web baru yang fantastis. Terima kasih atas kesabaran Anda.</p>
+        <p>Engine terbaru yang kami hadirkan, memberi kenyaman pengalaman bermain untuk setiap pemain.</p>
+        
+        <a href="http://server2.panjat4d.com" class="btn btn-pulse">LOGIN</a>
+        <a href="http://server2.panjat4d.com" class="btn btn-pulse">DAFTAR</a>
+
+        
+        <p class="footer-text">&copy; 2025 [PANJAT4D]. Hak Cipta Dilindungi.</p>
+    </div>
+</body>
+</html>
